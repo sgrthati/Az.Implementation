@@ -22,16 +22,13 @@ VM > Access Control > Add Role Assignment > choose below roles based on requirem
 ![image](https://github.com/sgrthati/Az.Implementation/assets/101870480/6339e46d-50bc-47f7-bb09-8132e33df1fd)
 
 #we have to download RDP file for VM,and we have to add last 2 highlighted lines to RDP File,it will be look like this
->full address:s:7<PUBLIC-IP>:3389
-
->prompt for credentials:i:1
-
->administrative session:i:1
-
-**enablecredsspsupport:i:0**
-
-**authentication level:i:2**
-
+```note
+full address:s:"PUBLIC-IP":3389
+prompt for credentials:i:1
+administrative session:i:1
+enablecredsspsupport:i:0
+authentication level:i:2
+```
 #we have to RDP,with role assigned user
 
 ![image](https://github.com/sgrthati/Az.Implementation/assets/101870480/e3ea8c52-d6c6-4ff4-be5c-3cd8cd9c1880)
