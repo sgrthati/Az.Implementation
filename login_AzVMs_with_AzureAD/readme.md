@@ -17,7 +17,7 @@ VM > Access Control > Add Role Assignment > choose below roles based on requirem
 
   ![image](https://github.com/sgrthati/Az.Implementation/assets/101870480/c1f469ef-b371-43fd-a8e5-b3861812728f)
 
-# We have to Disable NLA,after that we have to Restart VM
+#We have to Disable NLA,after that we have to Restart VM
 
 ![image](https://github.com/sgrthati/Az.Implementation/assets/101870480/6339e46d-50bc-47f7-bb09-8132e33df1fd)
 
