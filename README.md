@@ -18,22 +18,21 @@
     
     4.deploy a GatewaySubnet in CLOUD_VNET
 
-        ![alt text](images/image.png)
+![image](https://github.com/sgrthati/Az.Implementation/assets/101870480/8c1c8479-d802-4412-9993-2523ccc021cc)
+
         
     5.start deploying "Virtual Network Gateway" using Gatewaysubnet,it may take 20 to 30min for provisioning
 
-        ![alt text](images/image-1.png)
+![image-1](https://github.com/sgrthati/Az.Implementation/assets/101870480/ed6f3009-a769-4e46-922f-36813936d3b5)
 
     6.while VPN provisioning,we will provision "Local Network Gateway"(here we are going to define the path for OnPremise)
         
-        ![alt text](images/image-2.png)
+![image-2](https://github.com/sgrthati/Az.Implementation/assets/101870480/d0a881f5-59eb-477b-856a-0355ac72b480)
 
-    
     8.site-to-site configuration
 
         - "Add Connection" in VPN
-        - ![alt text](images/image-3.png)
-
+![image-3](https://github.com/sgrthati/Az.Implementation/assets/101870480/4f2495d7-b6e0-48ef-aa0f-06f0523b678c)
 
     7.Now setup OnPrem VM for VPN setup
 
