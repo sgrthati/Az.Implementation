@@ -3,7 +3,7 @@
 #Create a VM by enabling Azure AD
 ![image](https://github.com/sgrthati/Az.Implementation/assets/101870480/89ed055f-dd80-426a-90d3-3caeec230e9c)
 
-#in provisioned VM, by choosing "Azure AD based Windows Login"
+#in provisioned VM, by installing "Azure AD based Windows Login"
 
 ![image](https://github.com/sgrthati/Az.Implementation/assets/101870480/a4db3f1e-3d32-4190-920a-7e10b85a4b25)
 
