@@ -18,3 +18,7 @@
 
 ## after refreshing at Point to site,we were able to download VPN Client,download it and move it to machine,where we want to make a connection to Our network
 
+## download AzureVPN Client and import config in that system
+
+## login with Azure AD Credentials
+
