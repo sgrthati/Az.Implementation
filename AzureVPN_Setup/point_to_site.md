@@ -16,9 +16,17 @@
 
 ![image](https://github.com/sgrthati/Az.Implementation/assets/101870480/1f39719c-52dd-4f04-a585-7c98517c809e)
 
+Tenant: https://login.microsoftonline.com/{TenantID}/
+
+Audience: 41b23e61-6c1e-4545-b367-cd054e0ed4b4
+
+Issuer: https://sts.windows.net/{AzureAD_TenantID}/
+
 ## after refreshing at Point to site,we were able to download VPN Client,download it and move it to machine,where we want to make a connection to Our network
 
 ## download AzureVPN Client and import config in that system
+
+https://aka.ms/azvpnclientdownload
 
 ## login with Azure AD Credentials
 
