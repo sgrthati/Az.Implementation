@@ -26,5 +26,7 @@ Issuer: https://sts.windows.net/{AzureAD_TenantID}/
 
 ## download AzureVPN Client and import config in that system
 
+https://aka.ms/azvpnclientdownload
+
 ## login with Azure AD Credentials
 
