@@ -102,9 +102,18 @@ resource "azurerm_virtual_machine_extension" "iis_install_1" {
   auto_upgrade_minor_version = true
   settings = <<SETTINGS
     {
-      "commandToExecute": "powershell -encodedCommand ${textencodebase64(file("${path.module}/scripts/install-iis.ps1"), "UTF-16LE")}"
+      "fileUris": [
+            "https://csg10032001d012dbbf.blob.core.windows.net/scripts/install-iis_SSL.ps1"
+        ],
+      "commandToExecute": "powershell -ExecutionPolicy Unrestricted -File install-iis_SSL.ps1"
     }
   SETTINGS
+  protected_settings = <<PROTECTED_SETTINGS
+    {
+      "storageAccountName": "${var.sa.name}",
+      "storageAccountKey": "${data.azurerm_storage_account.sa.primary_access_key}"
+    }
+  PROTECTED_SETTINGS
 }
 resource "azurerm_virtual_machine_extension" "iis_install_2" {
   count                = var.vm.count
@@ -116,7 +125,16 @@ resource "azurerm_virtual_machine_extension" "iis_install_2" {
   auto_upgrade_minor_version = true
   settings = <<SETTINGS
     {
-      "commandToExecute": "powershell -encodedCommand ${textencodebase64(file("${path.module}/scripts/install-iis.ps1"), "UTF-16LE")}"
+      "fileUris": [
+            "https://csg10032001d012dbbf.blob.core.windows.net/scripts/install-iis_SSL.ps1"
+        ],
+      "commandToExecute": "powershell -ExecutionPolicy Unrestricted -File install-iis_SSL.ps1"
     }
   SETTINGS
+  protected_settings = <<PROTECTED_SETTINGS
+    {
+      "storageAccountName": "${var.sa.name}",
+      "storageAccountKey": "${data.azurerm_storage_account.sa.primary_access_key}"
+    }
+  PROTECTED_SETTINGS
 }

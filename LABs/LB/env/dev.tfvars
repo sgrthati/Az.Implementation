@@ -10,7 +10,11 @@ subnet = {
     SN2 = "10.0.3.0/24"
 }
 vm = {
-    count = 3
+    count = 1
     username = "azureadmin"
     password = "Cloud@20252025"
+}
+sa = {
+    name = "csg10032001d012dbbf"
+    rg_name = "cloud-shell-storage-centralindia"
 }

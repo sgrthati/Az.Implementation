@@ -21,6 +21,9 @@ variable "subnet" {
 variable "vm" {
     type = map
 }
+variable "sa" {
+    type = map  
+}
 variable "backend_rules" {
   type = map(object({
     priority    = number
