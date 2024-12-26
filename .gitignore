@@ -20,4 +20,4 @@
 *.tgz
 **/helm-charts/**
 **/install-iis_SSL_encrypted.ps1
-**/certificate.pfx
+*.pfx
