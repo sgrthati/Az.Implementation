@@ -9,7 +9,7 @@ subnet = {
     SN1 = "10.0.2.0/24"
 }
 vm = {
-    count = 1
+    count = 3
     username = "azureadmin"
     password = "Cloud@20252025"
 }
